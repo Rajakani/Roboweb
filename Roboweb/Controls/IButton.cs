@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Roboweb
+namespace Roboweb.Controls
 {
-    public class Class1
+    public interface IButton: IControl
     {
+        bool Click();
     }
 }
